@@ -140,16 +140,16 @@ ul {
 
 /* Edit Task */
 
-.task-item .task {
+li .task {
     display: none;
 }
 
-.edit-mode .task {
+li.edit-mode .task {
     display: inline-block;
     width: 224px;
 }
 
-.edit-mode .task-label {
+li.edit-mode .task-label {
     display: none;
 }
 
